@@ -4,17 +4,18 @@
 }
 body{
     background-image: url(./assets/mainPhoto.jpg);
-    /* background-repeat: no-repeat; */
-}
-#header{
-    
+    background-repeat: no-repeat;
+      
     /* background attachment agar fixed kr doo tu background image stick ho jati ha   */
     
-    /* background-size: 100% 100%; */
+    background-size: cover;
+    color: white;
+}
+#header{
+  
   margin: 0;
   padding: 0;
-    position: relative;
-    
+   
 }
 #left{
     border: 1px solid palevioletred;
@@ -27,7 +28,7 @@ body{
 #mid{
     display: block;
     border: 1px solid blue;
-    width: 20%;
+    width: 33%;
     margin: 20px auto;
 
 
