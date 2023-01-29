@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#header{
+    background-image: url(./assets/mainPhoto.jpg);
+    background-repeat: no-repeat;
+    /* background attachment agar fixed kr doo tu background image stick ho jati ha   */
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    width: 100%;
+    height: 700px;
+}
