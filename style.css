@@ -28,8 +28,10 @@ body{
 #mid{
     display: block;
     border: 1px solid blue;
-    width: 33%;
+    width: 40%;
     margin: 20px auto;
+   
+
 
 
 }
@@ -39,4 +41,18 @@ display: inline-block;
 position: absolute;
 right: 34px;
 top: 20px;
+}
+.nav{
+    display: inline-block;
+}
+.nav li {
+    /* text-decoration: none; */
+    display: inline-block;
+    font-size: 21px; 
+ padding: 15px 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+/* padding: 15px 15px; */
 }
