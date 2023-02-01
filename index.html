@@ -1,33 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gym Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" type="image/png" href="./assets/icon.jpg" sizes="32x32">
-</head>
-<body>
-   <header id="header">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./assets/icon.jpg" sizes="32x32" />
+  </head>
+  <body>
+    <header id="header">
+      <!-- Logo Design Data -->
+
       <div id="left">
-         <img src="./assets/icon.jpg" alt="icon">
-         <div>SHEZ EMPIRE GYM</div></div>
-      <div id="mid"> 
-         <ul class="nav">
-            <li> <a href="#" class="active">Home</a> </li>
-            <li> <a href="#">About Us</a>  </li>
-            <li> <a href="#">Fitness Center</a>  </li>
-            <li> <a href="#">Contact Us</a>  </li>
-         </ul>
+        <img src="./assets/icon.jpg" alt="icon" />
+        <div>SHEZ EMPIRE GYM</div>
       </div>
+      <!-- NavBar Data -->
+      <div id="mid">
+        <ul class="nav">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Fitness Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- buttons Data -->
       <div id="right">
-          <button class="btn" > Contact Us</button>
-         <button class="btn" >Join Us</button>
+        <button class="btn">Contact Us</button>
+        <button class="btn">Join Us</button>
       </div>
-   </header>
-   
-   
-</body>
+    </header>
+    <!-- Form Data -->
+    <div class="formContainer">
+      <h1>Sign In (To be a part of GYM)</h1>
+      <form action="#">
+        <div>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your Name" 
+            autocomplete="off"
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Enter your Location" 
+            autocomplete="off"
+          />
+        </div>
+        <div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your Email" 
+            autocomplete="off"
+          />
+        </div>
+        <div>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your Password" 
+            autocomplete="off"
+          />
+        </div>
+      </form>
+      <button class="form-btn">Submit</button>
+    </div>
+  </body>
 </html>

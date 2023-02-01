@@ -1,86 +1,124 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Aboreto', cursive;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Aboreto", cursive;
 }
-body{
-    background-image: url(./assets/mainPhoto.jpg);
-    background-repeat: no-repeat;
-      
-    /* background attachment agar fixed kr doo tu background image stick ho jati ha   */
-    
-    background-size: cover;
-    color: white;
-    font-family: 'Aboreto', cursive;
+body {
+  background-image: url(./assets/mainPhoto.jpg);
+  background-repeat: no-repeat;
+
+  /* background attachment agar fixed kr doo tu background image stick ho jati ha   */
+
+  background-size: cover;
+  color: white;
+  font-family: "Aboreto", cursive;
 }
-#header{
-  
+#header {
   margin: 0;
   padding: 0;
-   
 }
-#left{
-    border: 1px solid palevioletred;
-    display: inline-block;
-    position: absolute;
-    left: 34px;
-    top: 20px;
-   
-}
-#left img{
-    width: 60px;
-    filter: invert(100%);
-    display: block;
-    margin: 0 auto;
+/* Logo Designing */
+#left {
 
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 20px;
 }
-#left div{
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.5;
+#left img {
+  width: 60px;
+  filter: invert(100%);
+  display: block;
+  margin: 0 auto;
 }
-#mid{
-    display: block;
-    border: 1px solid blue;
-    width: 50%;
-    margin: 20px auto;
+#left div {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.5;
 }
-#right{
-border: 1px solid red;
-display: inline-block;
-position: absolute;
-right: 5px;
-top: 20px;
+/* NavBar Styling */
+#mid {
+  display: block;
+ 
+  width: 50%;
+  margin: 20px auto;
+}
 
-}
-#right .btn{
- border-radius: 15px;   
- font-size: 14px;
- background-color: black;
- color: white;
- margin: 0 10px;
- padding: 9px 11px;
- cursor: pointer;
- border: 2px solid gray;
-}
-#right .btn:hover{
-    background-color: rgb(31, 30, 30);
-}
-.nav{
-    display: inline-block;
+.nav {
+  display: inline-block;
 }
 .nav li {
-    /* text-decoration: none; */
-    display: inline-block;
-    font-size: 18px; 
- padding: 14px 14px;
+  /* text-decoration: none; */
+  display: inline-block;
+  font-size: 18px;
+  padding: 14px 14px;
 }
-.nav li a{
-    text-decoration: none;
+.nav li a {
+  text-decoration: none;
+  color: white;
+  /* padding: 15px 15px; */
+}
+.nav li a:hover,
+.nav li a.active {
+  color: grey;
+  text-decoration: underline;
+}
+
+/* buttons designing */
+#right {
+  
+  display: inline-block;
+  position: absolute;
+  right: 5px;
+  top: 20px;
+}
+#right .btn {
+  border-radius: 15px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  margin: 0 10px;
+  padding: 9px 11px;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+#right .btn:hover {
+  background-color: rgb(31, 30, 30);
+}
+.formContainer {
+  margin: 93px 55px;
+  padding: 53px 56px;
+  border: 2px solid white;
+  width: 51%;
+  border-radius: 15px;
+}
+h1 {
+  text-align: center;
+}
+.formContainer div {
+    margin: 20px 20px;
+    
+    text-align: center;
+    
+
+}
+.formContainer div input {
+    padding: 13px 159px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    color: black;
+    font-weight: bold;
+}
+.form-btn{
+    border: 2px solid gray;
+    padding: 10px 202px;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    border-radius: 10px;
+    background-color: black;
     color: white;
-/* padding: 15px 15px; */
-}
-.nav li a:hover, .nav li a.active{
-    color: grey;
-    text-decoration: underline;
+    cursor: pointer;
+    font-size: 21px;
 }
