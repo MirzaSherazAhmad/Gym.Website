@@ -25,6 +25,17 @@ body{
     top: 20px;
    
 }
+#left img{
+    width: 50px;
+    filter: invert(100%);
+    display: block;
+    margin: 0 auto;
+
+}
+#left div{
+    text-align: center;
+    font-size: 10px;
+}
 #mid{
     display: block;
     border: 1px solid blue;
@@ -55,4 +66,8 @@ top: 20px;
     text-decoration: none;
     color: white;
 /* padding: 15px 15px; */
+}
+.nav li a:hover, .nav li a.active{
+    color: grey;
+    text-decoration: underline;
 }
